@@ -1,0 +1,14 @@
+@import 'variables';
+.test{
+  color:$primary-color;
+  background-color: green;
+}
+
+.footer{
+  background-color: #F8F9FA;
+  height:100px;
+}
+
+.main{
+  min-height: 400px;
+}

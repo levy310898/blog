@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "sass": "node-sass -w src/resources/scss/ -o src/public/css/"
+    
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "morgan": "^1.10.0",
+    "node-sass": "^5.0.0",
     "nodemon": "^2.0.6"
   }
 }
